@@ -1,6 +1,6 @@
 // Fetch the items from the JSON file
 function loadItems() {
-  return fetch("data/data.json") // data.json에서 데이터 받아오기
+  return fetch("data.json") // data.json에서 데이터 받아오기
     .then((response) => response.json())
     .then((json) => json.items); // 성공하면 json안의 items를 return
 }
