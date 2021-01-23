@@ -1,0 +1,2 @@
+# minishopping
+ html/css/javascript
