@@ -16,7 +16,7 @@ function displayItems(items) {
 function createHTMLString(item) {
   return `
     <li class="item">
-        <img src="${item.image}" alt="${item.type}" class="item__thumbnail" />
+        <img src="${item.image}" alt="${item.type}" class="item__thumbnail item__thumbnail__${item.size}" />
         <span class="item__description">${item.gender}, ${item.size}</span>
     </li>
     `;

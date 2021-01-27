@@ -80,6 +80,14 @@ body {
 .item__thumbnail {
   width: var(--size-thumbnail);
   height: var(--size-thumbnail);
+  margin-right: 5px;
+}
+
+.item__thumbnail__small {
+  width: var(--size-thumbnail-small);
+  height: var(--size-thumbnail-small);
+  margin-left: 5px;
+  margin-right: 10px;
 }
 
 .item__description {
